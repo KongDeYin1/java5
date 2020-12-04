@@ -42,10 +42,10 @@
 		return stu;
     }
 
-
-   //将诗句按照格式输出到文件
-         for (int i=7,x=0; i<=14*17;i+=7,x+=7) { 
-             if (i % 2 == 0) {
+//将诗句按照格式输出到文件
+ 
+for(int i=7; x=0; i<=14*17; i+=7,x+=7){
+	if (i % 2 == 0) {
                  for (int j = x; j < i; j++) {
                      out.write(c[j]);
                  }
@@ -55,6 +55,9 @@
                      out.write(c[j]);
                  }
                  out.write(",");
+
+	}
+
             
 ## 实验结果
 https://github.com/KongDeYin1/java5/blob/main/%E6%8D%95%E8%8E%B7.PNG
